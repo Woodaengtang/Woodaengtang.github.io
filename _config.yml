@@ -6,3 +6,38 @@ url: https://woodaengtang.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+nav_order: 1
+has_children: true
+
+nav:
+  - title: "Home"
+    url: "/"
+    nav_order: 1
+
+  - title: "Subject 1"
+    url: "/subject1/"
+    nav_order: 2
+    has_children: true
+    children:
+      - title: "Topic 1"
+        url: "/subject1/topic1"
+        nav_order: 1
+
+  - title: "Subject 2"
+    url: "/subject2/"
+    nav_order: 3
+    has_children: true
+    children:
+      - title: "Topic 2"
+        url: "/subject2/topic2"
+        nav_order: 1
+
+  - title: "Subject 3"
+    url: "/subject3/"
+    nav_order: 4
+    has_children: true
+    children:
+      - title: "Topic 3"
+        url: "/subject3/topic3"
+        nav_order: 1
